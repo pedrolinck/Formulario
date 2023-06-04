@@ -1,7 +1,12 @@
+body{
+    background-color: #16171b;
+    
+}
+
 .container{
    background-color: #222327;
    border-radius: 0.5em;
-   display: block;
+   margin-bottom: 2em;
 }
 /* logo image*/
 #tech{
@@ -12,6 +17,7 @@
 /* buttons*/
 .git{
     background-color: #27272A;
+    outline-style: none;
 }
 
 .git:hover{
@@ -26,15 +32,52 @@
 }
 .sign:hover{
     background-color: rgb(181, 46, 46);
+    transition: 0.3s;
 }
 /*inputs*/
+input{
+    background-color: #27272A;
+    color: linen;
+    outline: none;
+    padding: 0.5em;
+}
+.email{
+    border-radius: 0.5em 0.5em 0 0;
+}.password{
+    border-radius: 0 0 0.5em 0.5em ;
+}
 
-
+/*footer text   */
 p{
     color: azure;
 }
 
-input{
-    background-color: #27272A;
-}
 
+
+/* links*/
+.senha{
+    justify-content: end;
+}
+#password{
+    text-decoration: none;
+    color: linen;
+    font-size: smaller;
+    width: max-content;
+    margin: 1em 0;
+    padding: 0%;
+}
+#password:hover{
+    color: rgb(105, 168, 232);
+    transition: 0.3s;
+}
+a{
+    color: linen;
+}
+a:hover{
+    color: rgb(105, 168, 232);
+    transition: 0.3s;
+}
+#sign{
+    font-size: smaller;
+    margin: 1.5em auto 0 auto;
+}
