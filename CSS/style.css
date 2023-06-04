@@ -1,0 +1,40 @@
+.container{
+   background-color: #222327;
+   border-radius: 0.5em;
+   display: block;
+}
+/* logo image*/
+#tech{
+    max-width: min-content;
+    margin: auto;
+}
+
+/* buttons*/
+.git{
+    background-color: #27272A;
+}
+
+.git:hover{
+    background-color: #0a0909cf;
+}
+.git, .sign{
+    height: 2.5em;
+    border-radius: 0.5em;
+}
+.sign{
+    background-color: brown;
+}
+.sign:hover{
+    background-color: rgb(181, 46, 46);
+}
+/*inputs*/
+
+
+p{
+    color: azure;
+}
+
+input{
+    background-color: #27272A;
+}
+
