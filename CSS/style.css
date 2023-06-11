@@ -16,12 +16,23 @@ body{
 
 /* buttons*/
 .git{
-    background-color: #27272A;
-    outline-style: none;
+    background-color: #0c0c0c;
+    width: 100%vpw;
+    
+}
+.git a, .sign {
+    display: flex;
+    justify-content: center;
+    margin-top: 0.3rem;
+    text-decoration: none;
+}
+.git a:hover{
+    color: linen;
 }
 
 .git:hover{
-    background-color: #0a0909cf;
+    background-color: #151313cf;
+    transition: 0.3s;
 }
 .git, .sign{
     height: 2.5em;
@@ -29,9 +40,12 @@ body{
 }
 .sign{
     background-color: brown;
+    padding-top: 0.4rem;
+
 }
+
 .sign:hover{
-    background-color: rgb(181, 46, 46);
+    background-color: rgb(182, 53, 53);
     transition: 0.3s;
 }
 /*inputs*/
@@ -46,14 +60,6 @@ input{
 }.password{
     border-radius: 0 0 0.5em 0.5em ;
 }
-
-/*footer text   */
-p{
-    color: azure;
-}
-
-
-
 /* links*/
 .senha{
     justify-content: end;
@@ -77,7 +83,17 @@ a:hover{
     color: rgb(105, 168, 232);
     transition: 0.3s;
 }
+/*footer*/
 #sign{
+    
     font-size: smaller;
     margin: 1.5em auto 0 auto;
+    width: 100%vpw;
+}
+
+/*footer text*/
+p{
+    padding: 0%;
+    margin: 0%;
+    color: azure;
 }
